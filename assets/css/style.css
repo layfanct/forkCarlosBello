@@ -1,0 +1,30 @@
+html,
+body {
+    margin: 0;
+    padding: 0;}
+
+.navbar-expand-lg{
+    background-color:darkslategrey;
+    color: white;}
+
+    header{
+        background-image: url(../img/headerimagen.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        height: 200px;
+      
+        
+    }
+
+    .titulo{
+    
+        padding-top: 40px;
+        color: white;
+         text-align: center;
+         text-decoration:double;
+         text-shadow: 2px 5px 3px #000
+     }
+     
+     .text{
+         font-size: 52px;}
