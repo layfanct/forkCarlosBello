@@ -5,7 +5,16 @@ body {
 
 .navbar-expand-lg{
     background-color:darkslategrey;
-    color: white;}
+    color: white;
+height: 60px;}
+    
+
+    .collapse {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+      }
+      
 
     header{
         background-image: url(../img/headerimagen.jpg);
@@ -29,19 +38,30 @@ body {
      .text{
          font-size: 52px;}
 
+         .curriculum{
+            justify-content: start;
+  height: 100%;
+  background-color: aliceblue;
+ 
+}
+
          .lateral {
             display: flex;
             flex-direction: column;
           align-items: center;
+          
           padding-top: 25px;
           padding-bottom:  25px;
         
-        
-          justify-content: space-around;
+          justify-content:start;
+          gap: 40px;
           width: 50%;
           background-color: rgb(8, 139, 141);
           color: white;
         }
+
+        
+        
         .datospersonales{
             padding: 8px;
             list-style-type: none;}
@@ -57,6 +77,26 @@ body {
                 
             }
             
+            .habilidades {
+                text-align: center;
+                
+              }
+           
+              .fa-html5 {
+                color: rgb(150, 42, 3);
+              }
+              .fa-css3-alt {
+                color: rgb(28, 28, 192);
+              }
+              .fa-bootstrap {
+                color: rgb(70, 19, 117);
+              }
+              
+              .fa-js {
+                color: rgb(160, 160, 39);
+              }
+              
+            
             .listado{
                 list-style-type: none;
             }
@@ -68,8 +108,11 @@ body {
     
                     padding-top: 40px;
                     padding-bottom: 40px;
+                    gap: 10px;
                     
                 }
+
+
                 
                 .subtitulo{
                     background-color: rgb(8, 139, 141);
