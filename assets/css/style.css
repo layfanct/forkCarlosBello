@@ -1,7 +1,9 @@
 html,
 body {
     margin: 0;
-    padding: 0;}
+    padding: 0;
+  background-color: aliceblue;
+}
 
 .navbar-expand-lg{
     background-color:darkslategrey;
@@ -42,6 +44,7 @@ height: 60px;}
             justify-content: start;
   height: 100%;
   background-color: aliceblue;
+  
  
 }
 
@@ -49,14 +52,14 @@ height: 60px;}
             display: flex;
             flex-direction: column;
           align-items: center;
-          
+          background-color: rgb(8, 139, 141);
           padding-top: 25px;
           padding-bottom:  25px;
         
           justify-content:start;
           gap: 40px;
           width: 50%;
-          background-color: rgb(8, 139, 141);
+         
           color: white;
         }
 
@@ -127,3 +130,15 @@ height: 60px;}
                    
                 
                 }
+
+                .card {
+                    background-color: rgb(83, 47, 117);
+                  }
+
+                  .imagines {
+                    height: 500px;
+                    width: 100%;
+                  }
+
+                  .fondo {
+                    background-color: aliceblue;}
