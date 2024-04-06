@@ -1,144 +1,184 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
   background-color: aliceblue;
 }
 
-.navbar-expand-lg{
-    background-color:darkslategrey;
-    color: white;
-height: 60px;}
-    
+/* Navegación */
 
-    .collapse {
-        display: flex;
-        flex-direction: row;
-        justify-content: right;
-      }
-      
+.navbar-expand-md {
+  background-color: darkslategrey;
+  
+  
+}
 
-    header{
-        background-image: url(../img/headerimagen.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        justify-content: center;
-        height: 200px;
-      
-        
-    }
 
-    .titulo{
-    
-        padding-top: 40px;
-        color: white;
-         text-align: center;
-         text-decoration:double;
-         text-shadow: 2px 5px 3px #000
-     }
-     
-     .text{
-         font-size: 52px;}
+.collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  
+}
 
-         .curriculum{
-            justify-content: start;
+/* Encabezado */
+
+header {
+  background-image: url(../img/headerimagen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  height: 200px;
+  height: 270px;
+
+
+}
+
+
+.titulo {
+
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+  text-decoration: double;
+  text-shadow: 2px 5px 3px #000
+}
+
+.text {
+  font-size: 52px;
+}
+
+.botones {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+}
+
+/* CURRICULUM*/
+
+.curriculum {
+  justify-content: start;
   height: 100%;
   background-color: aliceblue;
-  
- 
+
+
 }
 
-         .lateral {
-            display: flex;
-            flex-direction: column;
-          align-items: center;
-          background-color: rgb(8, 139, 141);
-          padding-top: 25px;
-          padding-bottom:  25px;
-        
-          justify-content:start;
-          gap: 40px;
-          width: 50%;
-         
-          color: white;
-        }
+/*Zona lateral del Curriculum*/
 
-        
-        
-        .datospersonales{
-            padding: 8px;
-            list-style-type: none;}
+.lateral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(8, 139, 141);
+  padding-top: 25px;
+  padding-bottom: 25px;
 
-            .contacto{
-                display: flex;
-                flex-direction:row;
-                gap: 20px;
-                text-align: center;
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                
-            }
-            
-            .habilidades {
-                text-align: center;
-                
-              }
-           
-              .fa-html5 {
-                color: rgb(150, 42, 3);
-              }
-              .fa-css3-alt {
-                color: rgb(28, 28, 192);
-              }
-              .fa-bootstrap {
-                color: rgb(70, 19, 117);
-              }
-              
-              .fa-js {
-                color: rgb(160, 160, 39);
-              }
-              
-            
-            .listado{
-                list-style-type: none;
-            }
-            .link{
-                text-decoration: none;
-                color: white;}
+  justify-content: start;
+  gap: 40px;
+  width: 50%;
 
-                .derecha{
-    
-                    padding-top: 40px;
-                    padding-bottom: 40px;
-                    gap: 10px;
-                    
-                }
+  color: white;
+}
 
 
-                
-                .subtitulo{
-                    background-color: rgb(8, 139, 141);
-                    color: white;
-                   border-radius: 20px;
-                   text-align: center;
-                   
-                }
-                
-                .texto{
-                    color:  rgb(8, 139, 141);
-                   
-                
-                }
 
-                .card {
-                    background-color: rgb(83, 47, 117);
-                  }
+.datospersonales {
+  padding: 8px;
+  list-style-type: none;
+}
 
-                  .imagines {
-                    height: 500px;
-                    width: 100%;
-                  }
+.contacto {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 
-                  .fondo {
-                    background-color: aliceblue;}
+}
+
+.habilidades {
+  text-align: center;
+
+}
+
+.fa-html5 {
+  color: rgb(150, 42, 3);
+}
+
+.fa-css3-alt {
+  color: rgb(28, 28, 192);
+}
+
+.fa-bootstrap {
+  color: rgb(70, 19, 117);
+}
+
+.fa-js {
+  color: rgb(160, 160, 39);
+}
+
+
+.listado {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+
+}
+
+/* Zona derecha del Curriculum*/
+.derecha {
+
+  padding-top: 40px;
+  padding-bottom: 40px;
+  gap: 10px;
+
+}
+
+
+
+.subtitulo {
+  background-color: rgb(8, 139, 141);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+.texto {
+  color: rgb(8, 139, 141);
+
+
+}
+
+/*Zona Portafolio*/
+
+.card {
+  background-color: rgb(83, 47, 117);
+}
+
+.imagines {
+  height: 500px;
+  width: 100%;
+}
+
+.fondo {
+  background-color: rgb(126, 165, 165);
+}
+
+.hipervinculo {
+  text-decoration: none;
+}
+
+.contactar{
+  background-color: rgb(60, 72, 83);
+}
+
+footer{
+  background-color: darkslategrey;
+}
